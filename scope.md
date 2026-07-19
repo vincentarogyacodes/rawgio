@@ -54,7 +54,15 @@ This project will not test or document the following RAWGIO endpoints:
 
 This API reference documentation is intended for developers working with RAWGIO's API, specifically with `GET /games` and `GET /games/{id}` endpoints. It is not intended for end users.
 
-# 7. Assumptions & Constraints
+# 7. Testing Methodology
+
+This API reference documentation was produced by using RAWG's free-tier API and following a rigorous testing methodology, involving the following practices:
+
+ - Tested parameters against prescribed arguments and documented findings.
+ - Tested parameters against false arguments to document API behavior and error responses.
+ - Re-tested and verified findings that produced unexpected or unambiguous results before documenting them.
+
+# 8. Assumptions & Constraints
 
 ## a. Assumptions
 
@@ -63,10 +71,15 @@ This API reference documentation is intended for developers working with RAWGIO'
 
 ## b. Constraints
 
-- Documentations reports testing as on July 19th, 2026. The API behavior is subject to change on RAWGIO's descretion.
+- Documentation reports testing as of July 19th, 2026. The API behavior is subject to change on RAWGIO's discretion.
 - RAWGIO's source code is not publicly available.
-- The API available to public has 100,000 call limit and restores after 30 days. 
+- The API available to public has 20,000 call limit and restores after 30 days. 
 
+# 9. Deliverables
+
+- A project scope documentation with clearly outlined endpoint documentation for what's in scope and out of scope.
+- A fully tested API reference documentation for RAWGIO's `GET /games` and `GET /games/{id}` endpoints. It should clearly document observed API behavior and JSON response inconsistencies.
+- A README file summarizing the project, its purpose, and providing navigation to all documentation files.
 
 
 
