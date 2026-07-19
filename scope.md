@@ -65,7 +65,7 @@ This API reference documentation is intended for developers working with RAWGIO'
 
 - Documentations reports testing as on July 19th, 2026. The API behavior is subject to change on RAWGIO's descretion.
 - RAWGIO's source code is not publicly available.
-- The API available to public has 100,000 call limit and restores after 30 days.
+- The API available to public has 100,000 call limit and restores after 30 days. 
 
 
 
