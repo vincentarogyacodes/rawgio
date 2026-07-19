@@ -1,10 +1,10 @@
 # 1. Project Overview
 
-This project produces reference documentation for RAWGIO's API. It tests and documents HTTP requests and JSON responses, and helps developers make informed decisions when passing API parameters, studying JSON responses, and encountering inconsistencies.
+This project produces reference documentation for RAWGIO's API. It tests and documents HTTP requests, JSON responses, and observed API behavior to help developers integrate with `GET /games` and `GET /games/{id}` endpoints.
 
 # 2. Problem Statement/Objective
 
-This API reference documentation is produced to thoroughly test and map RAWGIO's API requests and responses. The official API documentation for RAWGIO only includes a list of  `GET` parameters and sample JSON responses. It does not document API behavior that emerges through parameter testing. There is a real gap in RAWGIO's official documentation, which this project closes by documenting parameter inconsistencies and enabling developers to confidently build their programs.
+This API reference documentation is produced to thoroughly test and map RAWGIO's API requests and responses. The official API documentation for RAWGIO only includes a list of  `GET` parameters and sample JSON responses. It does not document API behavior that emerges through parameter testing. This project supplements RAWGIO's official API reference by documenting parameter inconsistencies that enable developers to confidently integrate with the API.
 
 # 3. Objectives/Success Criteria
 
