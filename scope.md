@@ -1,1 +1,75 @@
+# 1. Project Overview
 
+This project produces reference documentation for RAWGIO's API. It tests and documents HTTP requests and JSON responses, and helps developers make informed decisions when passing API parameters, studying JSON responses, and encountering inconsistencies.
+
+# 2. Problem Statement/Objective
+
+This API reference documentation is produced to thoroughly test and map RAWGIO's API requests and responses. The official API documentation for RAWGIO only includes a list of  `GET` parameters and sample JSON responses. It does not document API behavior that emerges through parameter testing. There is a real gap in RAWGIO's official documentation, which this project closes by documenting parameter inconsistencies and enabling developers to confidently build their programs.
+
+# 3. Objectives/Success Criteria
+
+This documentation will only be deemed complete when it thoroughly tests and documents all endpoints listed in scope, while omitting those listed out of scope. It would also need to document all parameter behavior and inconsistencies, and provide a verifiable account of testing results.
+
+# 4. In Scope
+
+This project will only test and document the following RAWGIO endpoints:
+
+- `GET /games`
+- `GET /games{id}`
+
+# 5. Out of Scope
+
+This project will not test or document the following RAWGIO endpoints:
+
+- `GET /creator-roles`
+- `GET /creators`
+- `GET /creators/{id}`
+- `GET /developers`
+- `GET /developers/{id}`
+- `GET /games/{game_pk}/additions`
+- `GET /games/{game_pk}/development-team`
+- `GET /games/{game_pk}/game-series`
+- `GET /games/{game_pk}/parent-games`
+- `GET /games/{game_pk}/screenshots`
+- `GET /games/{game_pk}/stores`
+- `GET /games/{id}/achievements`
+- `GET /games/{id}/movies`
+- `GET /games/{id}/reddit`
+- `GET /games/{id}/suggested`
+- `GET /games/{id}/twitch`
+- `GET /games/{id}/youtube`
+- `GET /genres`
+- `GET /genres/{id}`
+- `GET /platforms`
+- `GET /platforms/lists/parents`
+- `GET /platforms/{id}`
+- `GET /publishers`
+- `GET /publishers/{id}`
+- `GET /stores`
+- `GET /stores/{id}`
+- `GET /tags`
+- `GET /tags/{id}`
+
+# 6. Audience
+
+This API reference documentation is intended for developers working with RAWGIO's API, specifically with `GET /games` and `GET /games/{id}` endpoints. It is not intended for end users.
+
+# 7. Assumptions & Constraints
+
+## a. Assumptions
+
+- RAWGIO's API is publicly available.
+- HTTP requests return responses in JSON.
+
+## b. Constraints
+
+- Documentations reports testing as on July 19th, 2026. The API behavior is subject to change on RAWGIO's descretion.
+- RAWGIO's source code is not publicly available.
+- The API available to public has 100,000 call limit and restores after 30 days.
+
+
+
+
+
+
+  
