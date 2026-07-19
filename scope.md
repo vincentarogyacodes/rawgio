@@ -15,7 +15,7 @@ This documentation will only be deemed complete when it thoroughly tests and doc
 This project will only test and document the following RAWGIO endpoints:
 
 - `GET /games`
-- `GET /games{id}`
+- `GET /games/{id}`
 
 # 5. Out of Scope
 
@@ -60,7 +60,7 @@ This API reference documentation was produced by using RAWG's free-tier API and 
 
  - Tested parameters against prescribed arguments and documented findings.
  - Tested parameters against false arguments to document API behavior and error responses.
- - Re-tested and verified findings that produced unexpected or unambiguous results before documenting them.
+ - Re-tested and verified findings that produced unexpected or ambiguous results before documenting them.
 
 # 8. Assumptions & Constraints
 
@@ -78,11 +78,11 @@ This API reference documentation was produced by using RAWG's free-tier API and 
 # 9. Deliverables
 
 - A project scope documentation with clearly outlined endpoint documentation for what's in scope and out of scope.
-- A fully tested API reference documentation for RAWGIO's `GET /games` and `GET /games/{id}` endpoints. It should clearly document observed API behavior and JSON response inconsistencies.
+- A fully tested API reference documentation for RAWGIO's `GET /games` and `GET /games/{id}` endpoints that documents observed API behavior and JSON response inconsistencies.
 - A README file summarizing the project, its purpose, and providing navigation to all documentation files.
 
+# 10. Status & Milestones
 
-
-
-
-  
+|Done|In Progress|Pending|
+|---|---|---|
+|- Fully tested, documented, and ready to reference (search, ordering, and genres for `/games`).|- Scope document.|- Documentation for remaining parameters for `/games` and `/games/{id}`.|
