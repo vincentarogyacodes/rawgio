@@ -25,7 +25,7 @@ The objective of this project is to produce a comprehensive API reference for RA
 
 - All other RAWG.IO endpoints.
 
-For a detailed breakdown of project scope, assumptions, and constraints, see the [Project Scope](endpoints/scope.md) document.
+For a detailed breakdown of project scope, assumptions, and constraints, see the [Project Scope](https://github.com/vincentarogyacodes/rawgio/blob/main/endpoint/scope.md) document.
 
 # Documentation Methodology
 
