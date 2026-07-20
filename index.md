@@ -4,6 +4,7 @@ A community reference for RAWG.IO's public API.
 
 ## Documentation
 
+- [README](README.md)
 - [GET /games Reference](endpoint/games-list.md)
 - [Project Scope](endpoint/scope.md)
 
