@@ -1,6 +1,6 @@
 # Description
 
-This is a reference document for RAWG.IO's API. It allows developers to request data from RAWG.IO's video game database.
+This document provides reference documentation for the GET /games endpoint of the RAWG.IO public API. It includes a parameter reference describing each supported query parameter, along with implementation notes documenting verified endpoint behavior, observed inconsistencies, and integration considerations identified through independent testing.
 
 # Parameters
 
