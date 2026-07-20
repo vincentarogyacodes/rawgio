@@ -85,4 +85,4 @@ This API reference documentation was produced by using RAWG's free-tier API and 
 
 |Done|In Progress|Pending|
 |---|---|---|
-|- Fully tested, documented, and ready to reference (search, ordering, and genres for `/games`).|- Scope document.|- Documentation for remaining parameters for `/games` and `/games/{id}`.|
+|- Fully tested, documented, and ready to reference (search, ordering, genres, tags, platforms, and developers for `/games`).|- publishers parameter for `/games`.|- Documentation for remaining `/games` and `/games/{id}` parameters.|
