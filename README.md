@@ -1,3 +1,7 @@
+yaml
+---
+---
+
 # RAWG.IO API Reference Documentation
 
 This is a community reference of the RAWG.IO public REST API through independent testing and verification. The project supplements the official RAWG.IO API reference by documenting verified parameter behavior, observed implementation details, and API inconsistencies for the `GET /games` and `GET /games/{id}` endpoints.
